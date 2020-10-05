@@ -1,0 +1,108 @@
+.wholePage {
+  background-image: linear-gradient(rgb(133, 185, 250), lightblue);
+}
+
+.contactForm {
+  margin: auto;
+  width: 60vw;
+}
+
+.divdebugbox {      /*  DELETE AFTER DEBUGGING  */
+  border: thin solid red;
+  background-color: white;
+  margin: 1vw;
+}
+
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  margin-bottom: 0px;
+  opacity: 0.3;
+}
+
+.navbar:hover {
+  /* opacity: 1.0;  */
+  background-color: rgba(133, 185, 250, 1.0);
+}
+
+.NavBar a {
+  float: left;
+
+}
+
+.NavBar a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-item {
+  background-color: transparent;
+}
+
+.jumbotron {
+  background-image: url("./Assets/solidFountainSkyLimit.JPG");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#landingImage {
+  padding: auto;
+}
+
+.JTheadline {
+  padding-top: 15vw;
+  color: black;
+}
+
+.JTsubtitle {
+  padding-bottom: 6vw;
+  padding-left: 10vw;
+  color: black;
+
+}
+
+.divSectionSpacing {
+  margin: 5vh 0 5vh 0;
+  padding: 2vh;
+}
+
+.footerIcon {
+  height: 30px;
+  margin-right: 3vw;
+}
+
+.firstfooterIcon {
+  padding-left: 20vw;
+}
+
+.footerCR {
+  color: darkgrey;
+  float: right;
+  margin-left: 10vw;
+}
+
+.Footer {
+  margin: auto;
+}
+
+.centeringContents {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillsImages {
+  height: 80px;
+  z-index: -1;
+}
+
+.portfolioImages {
+  height: 120px;
+  z-index: -1;
+}
+
+.mySkills {
+  margin-top: 2vw;
+}
