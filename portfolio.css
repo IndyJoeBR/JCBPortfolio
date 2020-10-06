@@ -46,6 +46,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 #landingImage {
@@ -82,6 +83,7 @@
   color: darkgrey;
   float: right;
   margin-left: 10vw;
+  padding-top: 2vw;
 }
 
 .Footer {
@@ -105,4 +107,8 @@
 
 .mySkills {
   margin-top: 2vw;
+}
+
+.formFullNamespacing {
+  margin-right: 30px;
 }
