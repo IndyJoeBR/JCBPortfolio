@@ -17,7 +17,7 @@
   </head>
 
 
-  <body class="wholePage">
+  <body>
       
       <div class="NavBar" id="bmHome">
         
@@ -141,6 +141,7 @@
         <!-- Bootstrap Cards - 2 rows, expandable to 3; respond down to 1 nicely -->
         <div class="container">
           <div class="row">
+            
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <a href="https://nasaimagesearchjboct2020-197f0.web.app" target="_blank">
@@ -152,6 +153,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <a href="https://indyjoebr.github.io/API_Challenge01/index.html" target="_blank">
@@ -163,8 +165,22 @@
                 </div>
               </div> 
             </div>
+
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <a href="https://agile-hamlet-69389.herokuapp.com/" target="_blank">
+                  <img class="card-img-top" src="./Assets/Immrama_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Immrama</h5>
+                  <p class="card-text">A simple travel blogging site allowing text, images and video.</p>
+                </div>
+              </div> 
+            </div>
+          
           </div>
           <div class="row portfolioRows">
+            
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <a href="https://indyjoebr.github.io/staticLayout/index.html" target="_blank">
@@ -176,6 +192,7 @@
                 </div>
               </div> 
             </div>
+            
             <div class="col">
               <div class="card" style="width: 18rem;">
                 <a href="https://codepen.io/IndianaJoe/pen/dyMmBNP" target="_blank">
@@ -188,11 +205,40 @@
                 </div>
               </div>
             </div>
+            
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <a href="https://indyjoebr.github.io/WebDevelopersCheatSheet/" target="_blank">
+                  <img class="card-img-top" src="./Assets/WebCheatSheet_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Web Developer's Cheat Sheet</h5>
+                  <p class="card-text">A cheat sheet covering the basics of HTML and CSS.</p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
 
       </div>  <!-- END: Portfolio-->
       
+
+      <!--    Generic Portfolio Card   *****************************************************
+      
+        <div class="col">
+              <div class="card" style="width: 18rem;">
+                <a href="   -= insert URL to webpage =-   " target="_blank">
+                  <img class="card-img-top" src="./Assets/   -= image thumbnail =-   " alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">   -= Title =-   </h5>
+                  <p class="card-text">   -=  short explanatory descripton=-   </p>
+                </div>
+              </div> 
+            </div>
+      
+      ********************************************************************************   -->
       
 
 
@@ -204,19 +250,23 @@
         <div class="contactForm">
           <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
             <fieldset id="fs-frm-inputs">
+              
               <div>
                 <label for="full-name" class="full-name-content">Full Name</label>
                 <input type="text" name="name" id="full-name" placeholder="First and Last please" required="">
               </div>
+
               <div>
-                <label for="email-address">Email Address</label>
+                <label for="email-address" class="email-address-content">Email Address</label>
                 <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
               </div>
+
               <div>
                 <label for="message" class="message-content">Message</label>
                 <textarea rows="6" name="message" id="message" placeholder="Hi Joe, I'd like to talk to you about..." required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
               </div>
+
             </fieldset>
             <input type="submit" value="Email" class="sumbitBtn">
           </form>
