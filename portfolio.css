@@ -1,6 +1,13 @@
-.wholePage {
+/*.wholePage {
   background-image: linear-gradient(rgb(133, 185, 250), lightblue);
+  font-family: Calibri, Arial, sans-serif;
+}  */
+
+body {
+  background-image: linear-gradient(rgb(133, 185, 250), lightblue);
+  font-family: Calibri, Arial, sans-serif;
 }
+
 
 .contactForm {
   margin: auto;
@@ -21,8 +28,6 @@
   margin: 2vw;
 }
 
-
-
 .navbar {
   background-color: transparent;
   position: fixed;
@@ -38,7 +43,6 @@
 
 .NavBar a {
   float: left;
-
 }
 
 .NavBar a:hover {
@@ -76,6 +80,14 @@
 .alignToCenter {
   text-align: center;
   font-weight: bold;
+}
+
+.mySkillsText {
+  font-size: 20px;
+}
+
+.card:hover {
+  border: thin solid darkblue;
 }
 
 .alignImagesToCenter {
@@ -126,11 +138,6 @@
   display: block;
 }
 
-.portfolioImages {
-  height: 120px;
-  z-index: -1;
-}
-
 .mySkills {
   margin-top: 2vw;
 }
@@ -138,6 +145,7 @@
 .portfolioRows {
   margin-top: 2vw;
 }
+
 
 /* Contact Form */
 #full-name {
