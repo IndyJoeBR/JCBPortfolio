@@ -17,7 +17,7 @@
 
   <body class="wholePage">
       
-      <div class="NavBar">
+      <div class="NavBar" id="bmHome">
         
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">Joseph Benson</a>
@@ -57,7 +57,9 @@
             <p class="lead JTsubtitle">Junior Web Developer</p>
           </div>
         </div>
-      
+        <div class="quote">
+          <h4>With a strong foundation, the sky is the limit.</h4>
+        </div>
       </div>  <!-- END: Landing -->      
       
       
@@ -70,17 +72,17 @@
           <div class="row">
             
             <div class="col-sm">
-              <h5>Hi... My name is Joseph Benson, but please call me 'Joe'.  I am currently a student of the Eleven Fifty Academy, but I'll soon be a graduate.  I am a life-long learner that has a passion for problem solving and will continual to improve as a developer.</h5>
+              <h5 class="blockText">Hi... My name is Joseph Benson, but please call me 'Joe'.  I am currently a student of the Eleven Fifty Academy, but I'll soon be a graduate.  I am a life-long learner that has a passion for problem solving and seek to continously improve as a developer.</h5>
             </div>
                           
             <div class="col-sm">
-              <h5>I started in Classical Archaeology and continued on into graduate school.  While I enjoyed the research and fieldwork, it wasn't for me and I moved into the pharmaceutical industry.  However, what I've been looking for is a career where I can use my problem solving and technical skills in a real world environment to make functional tools for people.</h5>
+              <h5 class="blockText">I started in Classical Archaeology and continued on into graduate school.  While I enjoyed the research and fieldwork, it wasn't for me and I moved into the pharmaceutical industry.  However, what I've been looking for is a career where I can use my problem solving and technical skills in a real world environment to make functional tools for people.</h5>
             </div>
             
             <div class="col-sm">
-              <h5>You can find example of my work on <span><a href="https://github.com/IndyJoeBR" target="_blank">Github</a></span>.</h5>
+              <h5>You can find examples of my work on <span><a href="https://github.com/IndyJoeBR" target="_blank">Github</a></span>.</h5>
               <h5>You can learn more about me on <span><a href="https://www.linkedin.com/in/joseph-c-benson" target="_blank">Linkedin</a></span>.</h5>
-              <h5>And you can download my <span><a href="./Documents/Joseph Benson - 04 Oct 2020 resume.docx">resume</a></span></h5>
+              <h5>And you can download my <span><a href="./Documents/Joseph Benson - 04 Oct 2020 resume.docx">resume</a></span>.</h5>
             
             </div>
           </div>
@@ -88,7 +90,7 @@
 
         <!-- Five column skills section -->
         <div class="container">
-          <h2 class="mySkills">My Skills</h2>
+          <h1 class="mySkills">My Skills</h1>
           <div class="row">
             <div class="col-sm">
               <img src="./Assets/html5Logo.png" class="skillsImages" alt="HTML5 logo">
@@ -134,26 +136,58 @@
       <div class="Portfolio divSectionSpacing divdebugbox" id="bmPortfolio">
         <h1>Portfolio</h1>
 
-        <!-- Bootstrap Grid System - keep to 3 column -->
+        <!-- Bootstrap Cards - 2 rows, expandable to 3; respond down to 1 nicely -->
         <div class="container">
           <div class="row">
             <div class="col">
-              <a class="nav-link" href="https://indyjoebr.github.io/API_Challenge02/index.html" target="_blank"><img src="./Assets/NASA_imageSearch_thumb.PNG" class="portfolioImages" alt="">NASA Image Search</a>
+              <div class="card" style="width: 18rem;">
+                <a href="https://nasaimagesearchjboct2020-197f0.web.app" target="_blank">
+                  <img class="card-img-top" src="./Assets/NASA_imageSearch_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">NASA Image Search</h5>
+                  <p class="card-text">Search the NASA Image library by free text and year.</p>
+                </div>
+              </div>
             </div>
             <div class="col">
-              <a class="nav-link" href="https://indyjoebr.github.io/API_Challenge01/index.html" target="_blank"><img src="./Assets/RandomCatFacts_thumb.PNG" class="portfolioImages" alt="">Random Cat Facts</a> 
+              <div class="card" style="width: 18rem;">
+                <a href="https://indyjoebr.github.io/API_Challenge01/index.html" target="_blank">
+                  <img class="card-img-top" src="./Assets/RandomCatFacts_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Cat Facts</h5>
+                  <p class="card-text">Acquire random facts about cats from the Cat Fact API.</p>
+                </div>
+              </div> 
             </div>
           </div>
-          <div class="row">
+          <div class="row portfolioRows">
             <div class="col">
-              <a class="nav-link" href="https://indyjoebr.github.io/staticLayout/index.html" target="_blank"><img src="./Assets/StaticLayout_thumb.PNG" class="portfolioImages" alt="">Static Layout</a> 
+              <div class="card" style="width: 18rem;">
+                <a href="https://indyjoebr.github.io/staticLayout/index.html" target="_blank">
+                  <img class="card-img-top" src="./Assets/StaticLayout_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Static Layout</h5>
+                  <p class="card-text">My static version of the stunning <a href="https://www.kastapp.co/">Kast</a> site.  (With which I have no affiliation.)</p>
+                </div>
+              </div> 
             </div>
             <div class="col">
-              <a class="nav-link" href="https://codepen.io/IndianaJoe/pen/dyMmBNP" target="_blank"><img src="./Assets/CSSCreature_thumb.PNG" class="portfolioImages" alt="">A CSS Creature</a> 
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/IndianaJoe/pen/dyMmBNP" target="_blank">
+                  <img class="card-img-top" src="./Assets/CSSCreature_thumb.PNG" alt="">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">CSS Creature</h5>
+                  <p class="card-text">A fun character created 
+                    using CSS.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
 
       </div>  <!-- END: Portfolio-->
       

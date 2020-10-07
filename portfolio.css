@@ -10,7 +10,7 @@
 .divdebugbox {      /*  DELETE AFTER DEBUGGING  */
   border: thin solid red;
   background-color: white;
-  margin: 1vw;
+  margin: 5vw;
 }
 
 
@@ -25,7 +25,7 @@
 .navbar:hover {
   /* opacity: 1.0;  */
   background-color: rgba(133, 185, 250, 1.0);
-}
+ }
 
 .NavBar a {
   float: left;
@@ -62,7 +62,15 @@
   padding-bottom: 6vw;
   padding-left: 10vw;
   color: black;
+}
 
+.quote {
+  text-align: center;
+}
+
+.blockText {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .divSectionSpacing {
@@ -111,4 +119,8 @@
 
 .formFullNamespacing {
   margin-right: 30px;
+}
+
+.portfolioRows {
+  margin-top: 2vw;
 }
