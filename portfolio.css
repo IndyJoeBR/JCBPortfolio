@@ -7,11 +7,20 @@
   width: 60vw;
 }
 
-.divdebugbox {      /*  DELETE AFTER DEBUGGING  */
-  border: thin solid red;
+.divdebugbox {
+  border: thin solid;
+  border-top-color: skyblue;
+  border-bottom-color: skyblue;
   background-color: white;
   margin: 5vw;
+  padding: 5vw;
 }
+
+.footerLook {
+  background-color: white;
+  margin: 2vw;
+}
+
 
 
 .navbar {
@@ -23,8 +32,8 @@
 }
 
 .navbar:hover {
-  /* opacity: 1.0;  */
   background-color: rgba(133, 185, 250, 1.0);
+  z-index: 1;
  }
 
 .NavBar a {
@@ -60,12 +69,18 @@
 
 .JTsubtitle {
   padding-bottom: 6vw;
-  padding-left: 10vw;
+  padding-left: 11vw;
   color: black;
 }
 
-.quote {
+.alignToCenter {
   text-align: center;
+  font-weight: bold;
+}
+
+.alignImagesToCenter {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blockText {
@@ -106,6 +121,9 @@
 .skillsImages {
   height: 80px;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .portfolioImages {
@@ -117,10 +135,34 @@
   margin-top: 2vw;
 }
 
-.formFullNamespacing {
-  margin-right: 30px;
-}
-
 .portfolioRows {
   margin-top: 2vw;
+}
+
+/* Contact Form */
+#full-name {
+  width: 26vw;
+  min-width: 160pt;
+}
+
+.full-name-content {
+  padding-right: 28px;
+}
+
+#email-address {
+  width: 26vw;
+  min-width: 160pt;
+}
+
+#message {
+  width: 26vw;
+  min-width: 160pt;
+}
+
+.message-content {
+  padding-right: 36px;
+}
+
+.sumbitBtn {
+  background-color: lightblue;
 }
