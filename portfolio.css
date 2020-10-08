@@ -34,6 +34,8 @@ body {
   opacity: 0.3;
 }
 
+
+
 .navbar:hover {
   background-color: rgba(133, 185, 250, 1.0);
   z-index: 1;
@@ -164,6 +166,7 @@ body {
 #full-name {
   width: 26vw;
   min-width: 160pt;
+  background-color: lightblue;
 }
 
 .full-name-content {
@@ -173,6 +176,7 @@ body {
 #email-address {
   width: 26vw;
   min-width: 160pt;
+  background-color: lightblue;
 }
 
 .email-address-content {
@@ -182,6 +186,7 @@ body {
 #message {
   width: 26vw;
   min-width: 160pt;
+  background-color: lightblue;
 }
 
 .message-content {
