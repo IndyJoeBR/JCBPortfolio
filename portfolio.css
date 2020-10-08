@@ -7,6 +7,14 @@ body {
   box-shadow: 10px 10px 5px grey;
 }
 
+.navbar-brand {
+  color: darkblue;
+}
+
+.nav-link {
+  color: darkblue;
+}
+
 .contactForm {
   margin: auto;
   width: 60vw;
