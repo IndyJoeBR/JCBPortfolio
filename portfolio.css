@@ -4,9 +4,9 @@ body {
 }
 
 .card {
-  box-shadow: 10px 10px 5px grey;
-  margin-bottom: 10px;
+  margin: 10xp;
 }
+
 
 .navbar-brand {
   color: darkblue;
@@ -26,6 +26,8 @@ body {
   border-top-color: skyblue;
   border-bottom-color: skyblue;
   background-color: white;
+  border-right-color: white;
+  border-left-color: white;
   margin: 5vw;
   padding: 5vw;
 }
@@ -110,9 +112,7 @@ body {
   font-size: 20px;
 }
 
-.card:hover {
-  border: thin solid darkblue;
-}
+
 
 .alignImagesToCenter {
   margin-left: auto;
@@ -172,6 +172,10 @@ body {
 
 
 /* Contact Form */
+#bmContactMe {
+  background-color: #f2f2f2;
+}
+
 #full-name {
   width: 30vw;
   min-width: 160pt;
@@ -219,10 +223,30 @@ body {
   background: hsl(210, 27%, 85%);
   background-image: 
     linear-gradient(90deg, #f0ffff 11px, transparent 0), 
+    linear-gradient(90deg, #afeeee, 5px, transparent 0),
+    linear-gradient(90deg, #87cefa 7px, transparent 0),
     linear-gradient(90deg, #f0f8ff 23px, transparent 0),
-    linear-gradient(0deg, #afeeee, 3px, transparent 0),
-    linear-gradient(90deg, #87cefa 5px, transparent 0),
-    linear-gradient(0deg, #87ceeb, 3px, transparent 0),
+    linear-gradient(90deg, #87ceeb, 3px, transparent 0),
     linear-gradient(90deg, #add8e6 31px, transparent 0);
   background-size: 41px 100%, 61px 100%, 83px 100%;
+}
+
+#bmPortfolio {
+  background-color: #f2f2f2;
+}
+
+.cardShadow {
+  border-radius: 3px;
+  background: #f2f2f2;
+  box-shadow: 3px 3px 3px #d6d6d6, 
+              -3px -3px 3px #ffffff;
+  transition: box-shadow .25s linear;
+}
+
+.cardShadow:hover {
+  border-radius: 5px;
+  background: #f2f2f2;
+  box-shadow:  7px 7px 5px #d6d6d6, 
+             -7px -7px 5px #ffffff;
+  transition: box-shadow .25s linear;
 }
